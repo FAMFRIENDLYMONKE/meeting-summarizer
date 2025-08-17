@@ -7,7 +7,7 @@ const PromptPage: React.FC = () => {
   const location = useLocation();
   const navigate = useNavigate();
   const [showModal, setShowModal] = React.useState(false);
-  const [showEmailModal, setShowEmailModal] = React.useState(false);
+  //   const [showEmailModal, setShowEmailModal] = React.useState(false);
   const [isEditing, setIsEditing] = React.useState(false);
   const [editedSummary, setEditedSummary] = React.useState("");
   const [settings, setSettings] = React.useState<PromptSettings>({
